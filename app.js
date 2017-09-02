@@ -1,8 +1,10 @@
+const express = require('express');
+const app = express();
 var wechat = require('wechat');
 var config = {
   token: 'Welcome@123',
   appid: 'wx78b781eb7adb57ce',
-  encodingAESKey: 'encodinAESKey',
+  encodingAESKey: 'xTxWzR1PI5vm1DiOGAXnBIk97GrrDGYqWWjL7QX5XFt',
   checkSignature: false // 可选，默认为true。由于微信公众平台接口调试工具在明文模式下不发送签名，所以如要使用该测试工具，请将其设置为false
 };
 
