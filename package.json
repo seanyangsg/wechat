@@ -20,9 +20,10 @@
     "node": ">=4.3.2"
   },
   "dependencies": {
-    "xml2js": "0.4.17",
     "ejs": ">=1.0.0",
-    "wechat-crypto": "0.0.2"
+    "express": "^4.15.2",
+    "wechat-crypto": "0.0.2",
+    "xml2js": "0.4.17"
   },
   "devDependencies": {
     "supertest": "*",
@@ -35,8 +36,7 @@
     "mocha-lcov-reporter": "*",
     "muk": "*",
     "rewire": "*",
-    "istanbul": "*",
-    "express": "4.15.2"
+    "istanbul": "*"
   },
   "author": "Jackson Tian",
   "license": "MIT",
