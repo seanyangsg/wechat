@@ -45,6 +45,10 @@ app.use('/wechat', wechat(config, function (req, res, next) {
     ]);
   }
 }));
-app.listen(8080, function () {
-  console.log('app listening on port 8080!')
+
+// Start the server
+const PORT = process.env.PORT || 8080;
+app.listen(PORT, () => {
+  console.log(`App listening on port ${PORT}`);
+  console.log('Press Ctrl+C to quit.');
 });
