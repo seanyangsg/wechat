@@ -6,7 +6,7 @@
   "scripts": {
     "test": "make test-all",
     "deploy": "gcloud app deploy",
-    "start": "node app.js",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
